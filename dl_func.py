@@ -23,7 +23,7 @@ from keras.layers import Input, Dense, Activation, BatchNormalization, Dropout, 
 from keras.layers import Conv1D, Conv2D, AveragePooling1D, MaxPooling1D, GlobalMaxPooling1D, GlobalAveragePooling1D, GRU, Bidirectional
 from keras.callbacks import Callback, ModelCheckpoint, History, EarlyStopping
 from keras.models import Model, load_model
-from keras.utils.np_utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from keras import backend as K
 
 
